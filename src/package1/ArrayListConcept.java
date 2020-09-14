@@ -1,6 +1,7 @@
 package package1;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 public class ArrayListConcept {
@@ -21,6 +22,13 @@ public class ArrayListConcept {
 		}
 		
 		
+		//Using Iterator & example of While loop
+		
+		Iterator<String> it = st.iterator();
+		
+		while(it.hasNext()){
+			System.out.println(it.next());
+		}
 
 	}
 
