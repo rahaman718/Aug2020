@@ -1,9 +1,16 @@
 package package3;
 
-public class DifPack {
+import Package2.MainClass;
+
+public class DifPack extends MainClass {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+
+		//MainClass mk=new MainClass();
+		publicMethod();
+		protectedMethod();
+		
+
 
 	}
 

@@ -1,9 +1,12 @@
 package Package2;
 
-public class SubClass {
+public class SubClass extends MainClass{
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
+		publicMethod();
+		protectedMethod();
+		defaultmethod();
 
 	}
 
