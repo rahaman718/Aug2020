@@ -3,7 +3,10 @@ package oPPSConcept;
 public class MethodOverloadingConcept {
 
 	public static void main(String[] args) {
-
+		MethodOverloadingConcept mo = new MethodOverloadingConcept();
+		
+		mo.load1(10, null);
+		
 
 
 	}
@@ -16,16 +19,16 @@ public class MethodOverloadingConcept {
 	
 	public void load1(int a){
 		
-		System.out.println("First method ");
+		System.out.println("Second method ");
 	}
 
 	public void load1(int a, int b){
 		
-		System.out.println("First method ");
+		System.out.println("Third method ");
 	}
 	public void load1(int a, String b){
 		
-		System.out.println("First method ");
+		System.out.println(b);
 	}
 
 }
